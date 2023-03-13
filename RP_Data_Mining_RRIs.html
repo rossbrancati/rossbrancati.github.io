@@ -20,27 +20,18 @@
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Ross Brancati</strong></a>
-									<ul class="icons">
-										<li><a href="https://twitter.com/ross_brancati" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://github.com/rossbrancati" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://www.linkedin.com/in/ross-brancati/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://medium.com/@ross.brancati" class="icon brands fa-medium"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://sites.google.com/umass.edu/mobl/home?authuser=0" class=""><span class="label">My Lab</span></a></li>
-									</ul>
-								</header>
+							<p></p>
+							<a href="research_project_portfolio.html" class="button"/>&#60 Back to Research Portfoilo</a>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h2>A Data Mining Approach for Determining Biomechanical Adaptations in Runners Experiencing and Recovered from Patellofemoral Pain</h2>
-										<h3>Co-authors: Dr. Katherine Boyer, Dr. Joseph Hamill, Dr. Carl Jewell</h3>
-									</header>
-									<p align="center">
-											<img src="images/5_interpretation_visualization.png" alt="" width="400">
+										<h2 align="center">A data mining approach for determing biomechanical adaptations in runners who experienced and recovered from patellofemoral pain syndrome</h2>
+										<h3 align="center">Publication is currently under review</h3>
+										<p align="center">
+											<img src="images/research_portfolio/PFP_data_mining.png" alt="" height="300">
 										</p>
+									</header>
 
 									<hr class="major" />
 									<h3>This project has been presented at the following conferences & talks:</h3>
@@ -52,31 +43,24 @@
 									</ul>
 
 									<hr class="major" />
-									<h3>Publication Abstract</h3>
-									<h4>Introduction</h4>
-									<p>Patellofemoral pain (PFP) is a common musculoskeletal pain disorder often experienced by young, athletic individuals, especially those who participate in running related activities. Multiple studies have investigated biomechanical adaptations in those with PFP, but these studies have typically analyzed discrete timepoints of the gait cycle such as peak values. These approaches may miss important biomechanical adaptations, however machine learning (ML) approaches such as principal component analysis (PCA) and classification models can account for potential adaptations that are missed using traditional discrete variable analysis methods.</p>
+									<h3>Summary of Project and Results</h3>
+									<p>Patellofemoral pain (PFP) is a common musculoskeletal pain disorder often experienced by young, athletic individuals, especially those who participate in running related activities. Multiple studies have investigated biomechanical adaptations in those with PFP, but these studies have typically analyzed discrete timepoints of the gait cycle such as peak joint angles or moments. These approaches may miss important biomechanical adaptations, however machine learning (ML) approaches such as principal component analysis (PCA) and classification models can account for potential adaptations that are missed using traditional discrete variable analysis methods. Kinematics, kinetics, and electromyography data were collected at the beginning and end of a treadmill run in three groups of runners: healthy, symptomatic for PFP, and recoverred from PFP. PCA was applied to reduce entire waveforms down to their most pertinent features. An interpretable machine learning classification model was used to mine out the most important features that differentiated healthy runners from those with PFP. Recoerred runners were classified as either healthy or symptomatic. The results showed many important biomechananical adaptations at, distal, and proximal to the knee in all three planes of motion. At the beginning of the run, knee flexion angles, hip adduction moments, and gluteus maximus activation best differentiated healthy and symptomatic runners. After 21 minutes of treadmill running, nine additional features were required to accurately classify these two groups. Recoverred runners who experienced pain throughout the run tended to be classified into the symptomatic groups based on these features.</p>
 
-									<h4>Methods</h4>
-									<p>Kinematics, kinetics, electromyography, and subjective pain data of runners currently experiencing, recovered from, and who never experienced PFP were collected at the beginning and end of a prolonged treadmill run. PCA was used to reduce time-series waveforms to a few principal components (PCs). The scores of these PCs were fed into a ML classification model and the most important features that differentiated runners with and without PFP were extracted from the models at both timepoints. Additionally, recovered runners were classified as healthy or symptomatic.</p>
+									<hr class="major" />
+									<h3>Publication</h3>
+									<p>Once and if this ends up being published, I will include a link to the location of the manuscript.</p>
+									<!--
+									<p align="center">
+										<a href="" class="button"/>Link to Project on Github</a>
+									</p>
+									-->
 
-									<h4>Results</h4>
-									<p>Important features at the beginning of the treadmill run included knee flexion angles, hip abduction moments, and gluteus maximus activation. Following the prolonged run, an additional nine features were required to achieve high accuracy, which included rotational angles at the hip and knee, knee flexion and abduction moments, and multiple ankle-based features. Recovered runners who experienced any pain throughout the run tended to be classified into the symptomatic group based on these features.</p>
-
-									<h4>Discussion and Conclusions</h4>
-									<p>This unique analysis approach offers a viable method to systematically account for the highly complex nature of human movement, especially adaptations displayed in response to injury and pain. Apriori selection of discrete variables may also miss important biomechanical adaptations displayed by those with PFP. Lastly, although runners have recovered from pain, they may still display biomechanical adaptations similar to symptomatic individuals, which could put them at risk of redeveloping PFP.</p>
-			
-									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
 									<hr class="major" />
 									<h3>Open Source Jupyter Notebooks</h3>
-									Two jupyter notebooks are available on Github. The first notebook has code that walks through the steps to pre-process data and run the principal component analysis. The second has the code for machine learning modeling and other analysis. 
-									<p></p>
+									<p>Two jupyter notebooks are available on Github. The first notebook has code that walks through the steps to pre-process data and run the principal component analysis. The second has the code for machine learning modeling and other analysis.</p>
 									<p align="center">
 										<a href=https://github.com/rossbrancati/PFP_project class="button"/>Link to Project on Github</a>
 									</p>
-
-									<hr class="major" />
-									<h3>Progress Update</h3>
-									<p>There is a fully drafted manuscript that is under review by co-authors and will be sent out to journal to be published in the near future.</p>
 
 									<hr class="major" />
 									<h3>Principal Component Analysis on Time Series Data</h3>
@@ -86,97 +70,12 @@
 										<a href=https://medium.com/@ross.brancati/principal-component-analysis-on-time-series-data-b14562639f67 class="button"/>Link to Blog Post</a>
 									</p>
 
+									<p></p>
+									<a href="research_project_portfolio.html" class="button"/>&#60 Back to Research Portfoilo</a>
 
 								</section>
-
 						</div>
 					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search 
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section> -->
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h1>RB</h1>
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="CV_and_Resume.html">CV and Resume</a></li>
-										<li><a href="publications.html">Publications</a></li>
-										<!--<li><a href="elements.html">Elements</a></li>-->
-										<li>
-											<span class="opener">Research Portfolio</span>
-											<ul>
-												<li><a href="RP_Dissertation.html">Wearable Sensors for Detecting Running Related Injuries (Disseration)</a></li>
-												<li><a href="RP_Data_Mining_RRIs.html">Data Mining, Biomechanical Adaptations, and Running Injuries</a></li>
-												<li><a href="RP_Aging_Postural_Control.html">Aging Related Adaptations to Postural Control</a></li>
-											</ul>
-										</li>
-										<li><a href="ds_project_portfolio.html">Data Science Portfolio (Sample Projects)</a></li>
-										<li><a href="ds_coursework_portfolio.html">Data Science Coursework Portfolio</a></li>
-										<li><a href="technical_blog.html">Technical Blogs</a></li>
-										<li><a href="presentation_samples.html">Presentation Samples</a></li>
-										<li><a href="reading_recommendations.html">Reading Recommendations</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<!--<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>-->
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Contact Me</h2>
-									</header>
-									<p>Always open for new opportunities, interesting conversations, and meeting new people. Shoot me an email if you'd like to get in touch.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto: rbrancati@umass.edu">University Email: rbrancati@umass.edu</a></li>
-										<li class="icon solid fa-envelope"><a href="mailto: ross.brancati@gmail.com">Personal Email: ross.brancati@gmail.com</a></li>
-										<li class="icon brands fa-twitter"><a href="https://twitter.com/ross_brancati">Twitter Account</a></li>
-										<li class="icon brands fa-github"><a href="https://github.com/rossbrancati">Github Account</a></li>
-										<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/ross-brancati/">LinkedIn Account</a></li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Ross Brancati. All rights reserved. Website Template: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
-					</div>
-
 			</div>
 
 		<!-- Scripts -->
