@@ -5,6 +5,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | slides</title>
   </head>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+  <script>
+    const firebaseConfig = { // Paste your config here
+      apiKey: "AIzaSyCzKrut9B1-_vuIzCWlIQYBigQH1iWrQ-s",
+      authDomain: "slidepuzzleleaderboard.firebaseapp.com",
+      databaseURL: "https://slidepuzzleleaderboard-default-rtdb.firebaseio.com",
+      projectId: "slidepuzzleleaderboard",
+      storageBucket: "slidepuzzleleaderboard.firebasestorage.app",
+      messagingSenderId: "993614922958",
+      appId: "1:993614922958:web:a3c562f9c5af16d70bbc9f"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1280 height=720 tabindex="-1" style="width: 1280px; height: 720px; background: #231F20"></canvas>
     <script src="Build/slides_build_v3.loader.js"></script>
