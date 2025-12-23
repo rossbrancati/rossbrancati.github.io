@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ross Brancati's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<p></p>
+							<a href="index.html" class="button"/>&#60 Back to Homepage</a>
+
+							<!-- Content -->
+								<section>
+								<header class="main">
+									<h2 align="center">Training a Physically Stable Quadruped Unmanned Ground Vehicle with Reinforcement Learning</h2>
+									
+									<p align="center">
+										<video controls width="600">
+											<source src="files/videos/RobotDogReinforcementLearning.mp4" type="video/mp4">
+										</video>
+									</p>
+
+									<h3 align="center">As a part of the Warfighter Lab's simulation efforts, we have developed a quadruped locomotion framework in Unity using the ML-agents toolkit. Our gaol is to investigate how reinforcemnet learningh (RL) can modulate central pattern generators (CPGs) to achieve stable gait and adaptive navigation in a physics-driven environment.</h3>
+								</header>
+
+									<hr class="major" />
+									<h2><u>More detials on this project</u></h2>
+									
+									<h4>As you see in the video, the initial model that only used the CPG achieved forward propulsion, but gait was very unstable and inefficient. To improve stability and adaptability, we applied reinforcement learning with a recurrent neural network to modulate the nominal gait in response to inertial and contact forces. Degrees of freedom were incrementally “freed” up, so the agent learned to adapt its nominal gait, resulting in substantially more stable and efficient locomotion including faster forward walking.<h4>
+
+									<h4>We then extended this approach to more dynamic behaviors such as spinning, curved trajectories, and strafing. Task specific policies were trained to modulate joint angles for a specific navigation task involving approaching a target from an offset angle, while maintaining orientation towards a separate target, simulating a potential scenario for a Q-UGV.<h4>
+
+									<h4>While this work was a slight departure from my prior focus on machine learning for clinical biomechanics and gait analysis, it’s been a valuable opportunity to dive deeper into physics-based simulation and reinforcement learning. Not to mention getting up to speed with Unity’s powerful capabilities.<h4>
+
+									<h4>The video above shows a high-level overview of the approach and early results. More to come as we continue exploring RL and evolutionary methods to produce agents with more realistic biomechanics.<h4>
+
+									<hr class="major" />
+
+									
+									<a href="index.html" class="button"/>&#60 Back to Homepage</a>
+									 
+
+
+									
+								</section>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

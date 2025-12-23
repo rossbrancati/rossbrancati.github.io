@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ross Brancati's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<p></p>
+							<a href="index.html" class="button"/>&#60 Back to Homepage</a>
+
+							<!-- Content -->
+								<section>
+								<header class="main">
+									<h2 align="center">A Procedural Animation for an Unmanned Quadruped Ground Vehicla</h2>
+									
+									<p align="center">
+										<video controls width="600">
+											<source src="files/videos/qugvProcedural.mp4" type="video/mp4">
+										</video>
+									</p>
+
+									<h3 align="center">As a part of the Warfighter Lab's simulation efforts, I developed a procedural animation for an unmanned quadruped ground vehicle. Although it may appear that the limbs are physically moving the body, it is purely animation based on the object's transform and rotation. The vehicle's movement was controlled with an Xbox 360 contoller to directly simulate the control mechanisms of a <a href="https://www.ghostrobotics.io/vision-60"><u>Ghost Robotics V60</u></a>.</h3>
+								</header>
+
+									<hr class="major" />
+									<h2><u>More detials on this project</u></h2>
+									
+									<h4>The procedural animation includes a few key components. A central pattern generator was used to create cyclical legs motions. When each leg of the vehicle contacts the floor, a coroutine is run to pause the feet for a parameterized time interval, creating the illusion that they are remaining in contact with the ground. After movement of the body is frozen for a separate parameterized time interval, the legs perform a reset mechanism, similar to a real V60.<h4>
+
+									<h4>The direction of the limb movement is a direct function of the linear and angular velocity of the hip joints, creating the illusion of the legs moving in the direction of the body (and respective hip joints).<h4>
+
+									<h4>This has been an interesting project to explore, especially incorporating principles of biomechanics and motor control such as central pattern generators, controlling joint angles, and creating illusions of joint angle control based on body segment kinemtics.<h4>
+
+									<hr class="major" />
+
+									
+									<a href="index.html" class="button"/>&#60 Back to Homepage</a>
+									 
+
+
+									
+								</section>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
